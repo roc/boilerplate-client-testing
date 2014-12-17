@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Testing in the wild!</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mocha.css" />
+  </head>
+
+  <body>
+    <div id="mocha"></div>
+    <script src="../js/vendor/mocha/mocha.js"></script>
+    <script src="../js/vendor/chai/chai.js"></script>
+
+    <!-- application scripts here -->
+    <script src="../js/addition.module.js"></script>
+
+    <script>mocha.setup('bdd');</script>
+    <script src="addition.module.spec.js"></script>
+
+    <script>
+      mocha.run();
+    </script>
+
+  </body>
+</html>

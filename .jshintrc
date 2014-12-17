@@ -1,0 +1,18 @@
+{
+    "browser"       : true,
+    "node"          : false,
+    "es5"           : true,
+    "strict"        : false,
+    "globalstrict"  : false,
+    "undef"         : true,
+    "unused"        : true,
+    "mocha"         : true,
+
+    "globals"       : {
+        "chai"      : true,
+        "mocha"     : true,
+        "it"        : true,
+        "should"    : true,
+        "describe"  : true
+    }
+}
