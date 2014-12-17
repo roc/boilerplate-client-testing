@@ -14,3 +14,10 @@ http://mochajs.org/
 Chai Assertion Library:
 http://chaijs.com/
 
+Bower:
+http://bower.io/
+Configuring
+http://bower.io/docs/config/
+
+Todd Motto introduction to the module pattern in javascript:
+http://toddmotto.com/mastering-the-module-pattern/
