@@ -16,5 +16,3 @@ var kahnYouAddUp = (function () {
   };
 
 })();
-
-// kahnYouAddUp.addADollar( 10 );
